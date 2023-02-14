@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-l from-gray-700 via-gray-900 to-black">
+    <header>
+        <h1 class="text-5xl text-emerald-600 text-center mt-6">Get Some <span class="font-semibold">Mooooney</span></h1>
+    </header>
+
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-zinc-50">
+                <div class="bg-green-600 p-8 rounded-xl">
+                    <h4 class="text-2xl">Deposit</h4>
+                    <h2 class="text-4xl">$00</h2>
+                </div>
+                <div class="bg-blue-700 p-8 rounded-xl">
+                    <h4 class="text-2xl">Withdraw</h4>
+                    <h2 class="text-4xl">$00</h2>
+                </div>
+                <div class="bg-violet-700 p-8 rounded-xl">
+                    <h4 class="text-2xl">Balance</h4>
+                    <h2 class="text-4xl">$1242</h2>
+                </div>
+            </div>
+        </section>
+        <!-- deposit and withdraw  -->
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto">
+                <div class="bg-gradient-to-r from-yellow-600 to-red-600 p-8 rounded-xl">
+                    <h4 class="text-2xl mb-4 text-stone-100">Deposit amount</h4>
+                    <input class="block w-9/12 mb-3 px-3 rounded-md" type="text" name="" id="deposit-amount"
+                        placeholder="Enter amount">
+                    <button class="bg-green-700 text-slate-50 px-6 py-2 rounded-full hover:bg-gradient-to-r from-emerald-500 to-lime-600"
+                        id="btn-deposit">Deposit</button>
+                </div>
+                <div class="bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 to-red-600 p-8 rounded-xl">
+                    <h4 class="text-2xl mb-4 text-stone-100">Withdraw amount</h4>
+                    <input class="block w-9/12 mb-3 px-3 rounded-md" type="text" name="" id="user-email"
+                        placeholder="Enter amount">
+                    <button class="bg-green-700 text-slate-50 px-6 py-2 rounded-full hover:bg-gradient-to-r from-emerald-500 to-lime-600"
+                        id="btn-withdraw">Withdraw</button>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="js/deposit.js"></script>
+</body>
+
+</html>
